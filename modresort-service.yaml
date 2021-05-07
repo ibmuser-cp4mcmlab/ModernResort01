@@ -5,7 +5,7 @@ metadata:
   labels:
     app: modresort-app
 spec:
-  type: NordPort
+  type: ClusterIP
   ports:
     - port: 9080
   selector:
